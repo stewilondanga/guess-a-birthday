@@ -147,8 +147,15 @@ body {
   border-radius: 15px;
 }
 
-/*.output button {padding:12px 20px; background:#d17c3c; border:0px; border-bottom:5px solid #446280; border-radius:4px;}
-.button-grp {width:95%;margin:0 auto;}
+.output button {
+  padding: 12px 20px;
+  background: #d17c3c;
+  border: 0px;
+  border-bottom: 5px solid #446280;
+  border-radius: 4px;
+}
+
+/*.button-grp {width:95%;margin:0 auto;}
 .button-grp1 {float:left;width:75%;}
 .button-grp2 {float:left;width:25%;}
 .button-grp button {padding:12px 20px; margin:10px; background:#2d81d5; border:0px; border-bottom:5px solid #446280; border-radius:4px; color:#000; font-weight:700; font-size:14px;}
