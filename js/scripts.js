@@ -7,15 +7,19 @@ var navigate = (function() {
   });
 })();
 
-/*$(document).ready(function() {
+$(document).ready(function() {
 
   $('.steps button').click(function() {
-    $(this).parent().css({'opacity':'0'});
-    $(this).parent().next().css({'z-index': '10'});
+    $(this).parent().css({
+      'opacity': '0'
+    });
+    $(this).parent().next().css({
+      'z-index': '10'
+    });
   });
 });
 
-function solve() {
+/*function solve() {
   const user_input = document.getElementById('solve_input').value.toString();
   const user_array = user_input.split("");
   let first_num, second_num;
