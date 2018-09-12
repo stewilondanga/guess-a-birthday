@@ -73,21 +73,21 @@ function solve() {
   }
 
   const ans = document.getElementById('ans');
-  /*ans.innerHTML = `<b>Your Birthday is on ${second_num - 50} ${month}.</b>`;
-  }
+  ans.innerHTML = `<b>Your Birthday is on ${second_num - 50} ${month}.</b>`;
+}
 
-  // Calculator
-  function c(val) {
-  document.getElementById("d").value=val;
+// Calculator
+/*function c(val) {
+document.getElementById("d").value=val;
+}
+function v(val) {
+  document.getElementById('d').value += val;
+}
+function e() {
+  try {
+    c(eval(document.getElementById('d').value))
   }
-  function v(val) {
-    document.getElementById('d').value += val;
+  catch(e) {
+    c('Error')
   }
-  function e() {
-    try {
-      c(eval(document.getElementById('d').value))
-    }
-    catch(e) {
-      c('Error')
-    }
-  }
+}
