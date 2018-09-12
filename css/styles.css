@@ -76,12 +76,13 @@ body {
   z-index: 7;
 }
 
-/*.main-app .part-two {
+.main-app .part-two {
   top: 21%;
   left: 8%;
   z-index: 6;
 }
-.main-app .part-three {
+
+/*.main-app .part-three {
   top: 22%;
   left: 9%;
   z-index: 5;
