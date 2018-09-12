@@ -170,9 +170,19 @@ body {
   width: 25%;
 }
 
-/*.button-grp button {padding:12px 20px; margin:10px; background:#2d81d5; border:0px; border-bottom:5px solid #446280; border-radius:4px; color:#000; font-weight:700; font-size:14px;}
+.button-grp button {
+  padding: 12px 20px;
+  margin: 10px;
+  background: #2d81d5;
+  border: 0px;
+  border-bottom: 5px solid #446280;
+  border-radius: 4px;
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
+}
 
-@media screen and (min-width: 500px) {
+/*@media screen and (min-width: 500px) {
   .main-app .steps {width:60%;}
 
 }
