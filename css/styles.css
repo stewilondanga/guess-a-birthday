@@ -23,12 +23,13 @@ body {
   height: 1.5em;
 }
 
-/*.main-app {
+.main-app {
   position: relative;
   height: 96vh;
   width: 100%;
 }
-.main-app .steps {
+
+/*.main-app .steps {
   position: absolute;
   width: 80%;
   height: 250px;
