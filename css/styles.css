@@ -19,14 +19,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-
-
-
-.main-app {
+/*.main-app {
   position: relative;
   height: 96vh;
   width: 100%;
