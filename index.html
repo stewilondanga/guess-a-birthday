@@ -21,6 +21,90 @@
         </a>
     </div>
 
+    <div class="main-app">
+
+      <div class="part-one steps">
+        <p><b>Take the number of the month, in which you are born in your mind. Starting from 1 for Jan to 12 for Dec.</b></p>
+        <button>Next -></button>
+      </div>
+
+      <div class="part-two steps">
+        <p><b>Double that number.</b></p>
+        <p>For example 9 x 2 = 18.</p>
+        <button>Next -></button>
+      </div>
+
+      <div class="part-three steps">
+        <p><b>Next add 5 to it.</b></p>
+        <p>For example 18 + 5 = 23.</p>
+        <button>Next -></button>
+      </div>
+
+      <div class="part-four steps">
+        <p><b>Then multiply the answer you got with 5.</b></p>
+        <p>For example 23 * 5 = 115.</p>
+        <button>Next -></button>
+      </div>
+
+      <div class="part-five steps">
+        <p><b>Whatever answer you got in the previous step, add zero at the end of the number.</b></p>
+        <p>For example I got 115 answer in previous step so now it become 115<b>0</b>.</p>
+        <button>Next -></button>
+      </div>
+
+      <div class="part-six steps">
+        <p><b>To the answer you got, now add your date of birth.</b></p>
+        <p>For example 1150 + 27 = 1177.</p>
+        <button>Next -></button>
+      </div>
+
+      <div class="part-seven steps">
+        <p><b>Now declare the final answer in textbox below.</b></p>
+        <input type="number" id="solve_input" required/>
+        <button type="button" onclick="solve()">Submit</button>
+      </div>
+
+      <div class="part-eight steps">
+        <h1>Answer</h1>
+        <div id="ans"></div>
+      </div>
+
+    </div>
+
+      <!-- Calculator -->
+    <div class="calculator-app">
+      <h1>Calculator for Help</h1>
+      <div class="calculator">
+        <div class="output">
+          <input type="text" id="d" readonly><button onclick="c('')">C</button>
+        </div>
+        <div class="button-grp">
+          <div class="button-grp1">
+            <button onclick="v('7')">7</button>
+            <button onclick="v('8')">8</button>
+            <button onclick="v('9')">9</button>
+            <button onclick="v('4')">4</button>
+            <button onclick="v('5')">5</button>
+            <button onclick="v('6')">6</button>
+            <button onclick="v('1')">1</button>
+            <button onclick="v('2')">2</button>
+            <button onclick="v('3')">3</button>
+            <button onclick="v('.')"><b style="font-weight:900;">.</b></button>
+            <button onclick="v('0')">0</button>
+            <button onclick="e()">=</button>
+          </div>
+          <div class="button-grp2">
+            <button onclick="v(' + ')">+</button>
+            <button onclick="v(' - ')">-</button>
+            <button onclick="v(' * ')">*</button>
+            <button onclick="v(' / ')">/</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
