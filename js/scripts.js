@@ -72,8 +72,8 @@ function solve() {
       break;
   }
 
-  /*const ans = document.getElementById('ans');
-    ans.innerHTML = `<b>Your Birthday is on ${second_num - 50} ${month}.</b>`;
+  const ans = document.getElementById('ans');
+  /*ans.innerHTML = `<b>Your Birthday is on ${second_num - 50} ${month}.</b>`;
   }
 
   // Calculator
