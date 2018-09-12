@@ -88,12 +88,13 @@ body {
   z-index: 5;
 }
 
-/*.main-app .part-four {
+.main-app .part-four {
   top: 23%;
   left: 10%;
   z-index: 4;
 }
-.main-app .part-five {
+
+/*.main-app .part-five {
   top: 24%;
   left: 11%;
   z-index: 3;
