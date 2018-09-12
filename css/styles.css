@@ -29,7 +29,7 @@ body {
   width: 100%;
 }
 
-/*.main-app .steps {
+.main-app .steps {
   position: absolute;
   width: 80%;
   height: 250px;
@@ -40,7 +40,8 @@ body {
   opacity: 1;
   transition: all 0.4s;
 }
-.main-app .steps p {
+
+/*.main-app .steps p {
   font-weight: 500;
   margin:0 0 10px;
 }
