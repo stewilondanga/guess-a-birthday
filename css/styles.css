@@ -70,12 +70,13 @@ body {
   width: 80%;
 }
 
-/*.main-app .part-one {
+.main-app .part-one {
   top: 20%;
   left: 7%;
   z-index: 7;
 }
-.main-app .part-two {
+
+/*.main-app .part-two {
   top: 21%;
   left: 8%;
   z-index: 6;
