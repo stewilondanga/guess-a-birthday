@@ -31,9 +31,9 @@ function solve() {
     first_num = user_array[0] + user_array[1];
     second_num = user_array[2] + user_array[3];
   }
-  /*  let month = first_num - 2;
+  let month = first_num - 2;
 
-    switch(month) {
+  /*switch(month) {
       case 1:
         month = "January";
         break;
