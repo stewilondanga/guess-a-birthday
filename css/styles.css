@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,113 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+* {box-sizing:border-box; font-family:arial; color:#555;}
+body {background:#4CAF50;}
+
+.main-app {
+  position: relative;
+  height: 96vh;
+  width: 100%;
+}
+.main-app .steps {
+  position: absolute;
+  width: 80%;
+  height: 250px;
+  border-radius: 5px;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 30px 0px #09460c;
+  opacity: 1;
+  transition: all 0.4s;
+}
+.main-app .steps p {
+  font-weight: 500;
+  margin:0 0 10px;
+}
+.main-app .steps button {
+  background: #4caf50;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  position:absolute;
+  bottom:30px;
+}
+.main-app .part-seven button {
+  position:relative;
+  bottom:0;
+}
+.main-app .steps input {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  width:80%;
+}
+.main-app .part-one {
+  top: 20%;
+  left: 7%;
+  z-index: 7;
+}
+.main-app .part-two {
+  top: 21%;
+  left: 8%;
+  z-index: 6;
+}
+.main-app .part-three {
+  top: 22%;
+  left: 9%;
+  z-index: 5;
+}
+.main-app .part-four {
+  top: 23%;
+  left: 10%;
+  z-index: 4;
+}
+.main-app .part-five {
+  top: 24%;
+  left: 11%;
+  z-index: 3;
+}
+.main-app .part-six {
+  top: 25%;
+  left: 12%;
+  z-index: 2;
+}
+.main-app .part-seven {
+  top: 26%;
+  left: 13%;
+  z-index: 1;
+}
+.main-app .part-eight {
+  top: 27%;
+  left: 14%;
+  z-index: 0;
+}
+
+
+/* Calculator */
+/*.calculator-app {transform:scale(0.9); text-align:center;}
+.calculator {width:320px; background: #2a3d51; padding:20px 10px 30px; display:inline-block; border-radius:15px; text-align:left;}
+.output #d {width:63%; margin:0 auto; background:#f15c59; margin:20px; color:#fff; padding:15px; font-size:20px; border:10px solid #5e626d; color:#000; border-radius:15px; }
+.output button {padding:12px 20px; background:#d17c3c; border:0px; border-bottom:5px solid #446280; border-radius:4px;}
+.button-grp {width:95%;margin:0 auto;}
+.button-grp1 {float:left;width:75%;}
+.button-grp2 {float:left;width:25%;}
+.button-grp button {padding:12px 20px; margin:10px; background:#2d81d5; border:0px; border-bottom:5px solid #446280; border-radius:4px; color:#000; font-weight:700; font-size:14px;}
+
+@media screen and (min-width: 500px) {
+  .main-app .steps {width:60%;}
+
+}
+
+@media screen and (min-width: 900px) {
+  .main-app .steps {width:70%; height:200px;}
+  .main-app {float:left; width:50%;}
+  .calculator-app {float:left; width:50%;}
 }
 
 .containers {
