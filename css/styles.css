@@ -182,12 +182,13 @@ body {
   font-size: 14px;
 }
 
-/*@media screen and (min-width: 500px) {
-  .main-app .steps {width:60%;}
-
+@media screen and (min-width: 500px) {
+  .main-app .steps {
+    width: 60%;
+  }
 }
 
-@media screen and (min-width: 900px) {
+/*@media screen and (min-width: 900px) {
   .main-app .steps {width:70%; height:200px;}
   .main-app {float:left; width:50%;}
   .calculator-app {float:left; width:50%;}
