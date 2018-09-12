@@ -19,12 +19,12 @@ $(document).ready(function() {
   });
 });
 
-/*function solve() {
+function solve() {
   const user_input = document.getElementById('solve_input').value.toString();
   const user_array = user_input.split("");
   let first_num, second_num;
 
-  if (user_array.length < 4) {
+  /*if (user_array.length < 4) {
     first_num = user_array[0];
     second_num = user_array[1] + user_array[2];
   } else {
