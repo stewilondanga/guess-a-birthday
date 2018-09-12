@@ -63,13 +63,14 @@ body {
   bottom: 0;
 }
 
-/*.main-app .steps input {
+.main-app .steps input {
   padding: 10px;
   font-size: 18px;
   margin-bottom: 15px;
-  width:80%;
+  width: 80%;
 }
-.main-app .part-one {
+
+/*.main-app .part-one {
   top: 20%;
   left: 7%;
   z-index: 7;
