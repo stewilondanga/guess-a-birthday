@@ -100,12 +100,13 @@ body {
   z-index: 3;
 }
 
-/*.main-app .part-six {
+.main-app .part-six {
   top: 25%;
   left: 12%;
   z-index: 2;
 }
-.main-app .part-seven {
+
+/*.main-app .part-seven {
   top: 26%;
   left: 13%;
   z-index: 1;
